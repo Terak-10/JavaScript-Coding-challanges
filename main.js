@@ -55,17 +55,10 @@ console.log(typeof markHigherBMI, typeof markHigherBMI2);
 
 
 
-
-
-
-
 //////////////////////////////////////////////////////////////////////////////////////////
-
-
-
-
 /*
 Coding Challenge #2
+
 
 Use the BMI example from Challenge #1, and the code you already wrote, and 
 improve it.
@@ -113,13 +106,9 @@ if(bmiMark1 > bmiJohn1) {
 
 
 
-
-
-
-
-
 //////////////////////////////////////////////////////////////////////////////////////////
 //Coding Challenge #3
+
 
 /*
 There are two gymnastics teams, Dolphins and Koalas. They compete against each 
@@ -180,9 +169,6 @@ if(averageDolphins > averageKoalas && score) {
 
 
 
-
-
-
 //////////////////////////////////////////////////////////////////////////////////////////
 //Coding Challenge #4
 
@@ -233,6 +219,8 @@ const bill4 = prompt("What's your bill?");
 console.log(`The bil wass ${bill4}, the tip was ${bill4 >= 50 && bill4 <= 300 ? tip4 = bill4 / 100 * 15: tip4 = bill4 / 100 * 20}, and total value ${Number(bill4) + tip4}`);
 
 */
+
+
 
 
 
