@@ -227,3 +227,54 @@ console.log(`The bil wass ${bill4}, the tip was ${bill4 >= 50 && bill4 <= 300 ? 
 //////////////////////////////////////////////////////////////////////////////////////////
 //Coding Challenge #5
 
+/*
+
+// Test 1
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+
+let scoreDolphins = calcAverage(44, 23, 71);
+let scoregeKoalas = calcAverage(65, 54, 49);
+console.log(scoreDolphins, scoregeKoalas);
+
+
+const checkWinner = function(averageDolphins, averageKoalas) {
+
+    if(averageDolphins >= 2 * averageKoalas) {
+        console.log("Doplhins win the game");
+    } else if (averageKoalas >= 2 * averageDolphins) {
+        console.log("Koalas win!")
+    } else {
+        console.log(":/")
+    }
+}
+
+const matchNo1 = checkWinner(46, 56)
+
+
+
+
+
+
+// Test 2
+const calcAverage1 = (a, b, c) => (a + b + c) / 3;
+
+let scoreDolphins1 = calcAverage1(85, 54, 41);
+let scoregeKoalas1 = calcAverage1(23, 34, 27);
+
+console.log(scoreDolphins1, scoregeKoalas1);
+
+const checkWinner1 = function(averageDolphins1, averageKoalas1) {
+    if(averageDolphins1 >= 2 * averageKoalas1) {
+        console.log("Doplhins winners!!!");
+    } else if(averageKoalas1 >= 2 * averageDolphins1) {
+        console.log("Koalas winners!!!")
+    } else {
+        console.log(":/")
+    }
+}
+
+const match2 = checkWinner1(60, 28);
+*/
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//Coding Challenge #6
