@@ -276,5 +276,35 @@ const checkWinner1 = function(averageDolphins1, averageKoalas1) {
 const match2 = checkWinner1(60, 28);
 */
 
+
 //////////////////////////////////////////////////////////////////////////////////////////
 //Coding Challenge #6
+
+
+//And now let's use arrays! So create an array 'bills' containing the test data below
+
+//Create an array 'tips' containing the tip value for each bill, calculated from the function you created before
+//Create an array 'total' containing the total values, so the bill + tip
+
+
+/*
+const bill1 = 125;
+console.log(`The bill was ${bill1}, the tip was ${bill1 >= 50 && bill1 <= 300 ? tip1 = bill1 / 100 * 15: tip1 = bill1 / 100 * 20} and total is ${bill1 + tip1}`);
+
+const bill2 = 555;
+console.log(`The bill was ${bill2}, the tip was ${bill2 >= 50 && bill2 <= 300 ? tip2 = bill2 / 100 * 15: tip2 = bill2 / 100 * 20} and total is ${bill2 + tip2}`);
+
+const bill3 = 44;
+console.log(`The bill was ${bill3}, the tip was ${bill3 >= 50 && bill3 <= 300 ? tip3 = bill3 / 100 * 15: tip3 = bill3 / 100 * 20} and total is ${bill3 + tip3}`);
+
+
+const bills = [bill1, bill2, bill3];
+console.log(bills);
+
+const total = [bill1 + tip1, bill2 + tip2, bill3 + tip3];
+console.log(total);
+*/
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//Coding Challenge #7
+
