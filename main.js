@@ -286,6 +286,7 @@ const match2 = checkWinner1(60, 28);
 //Create an array 'tips' containing the tip value for each bill, calculated from the function you created before
 //Create an array 'total' containing the total values, so the bill + tip
 
+// Option 1
 
 /*
 const bill1 = 125;
@@ -303,6 +304,37 @@ console.log(bills);
 
 const total = [bill1 + tip1, bill2 + tip2, bill3 + tip3];
 console.log(total);
+*/
+
+// Option 2
+
+/*
+const tip = function(bill) {
+    return bill >= 50 && bill <= 300 ? bill / 100 * 15: bill / 100 * 15;
+}
+
+const array = [125, 555, 44];
+
+const bill1 = `The bil is ${array[0]} and tip is ${tip(array[0])}`;
+console.log(bill1);
+
+const bill2 = `The bil is ${array[1]} and tip is ${tip(array[1])}`;
+console.log(bill2);
+
+const bill3 = `The bil is ${array[2]} and tip is ${tip(array[2])}`;
+console.log(bill3);
+
+const total1 = [tip(array[0]) + array[0]];
+console.log(total1);
+
+const total2 = [tip(array[1]) + array[1]];
+console.log(total2);
+
+const total3 = [tip(array[2]) + array[2]];
+console.log(total3);
+
+const totalPayment = [`Total payment is ${Number(total1) + Number(total2) + Number(total3)} $`];
+console.log(totalPayment);
 */
 
 //////////////////////////////////////////////////////////////////////////////////////////
