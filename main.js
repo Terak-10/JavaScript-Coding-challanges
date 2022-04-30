@@ -340,3 +340,44 @@ console.log(totalPayment);
 //////////////////////////////////////////////////////////////////////////////////////////
 //Coding Challenge #7
 
+/*
+const mark = {
+    firstName: "Mark",
+    lastName: "Miller",
+    mass: 78,
+    height: 1.69,
+
+    calcBMI: function() {
+        this.bmi = this.mass / this.height **2;
+        return this.bmi;
+    }
+};
+
+mark.calcBMI();
+console.log(mark);
+
+
+const john = {
+    firstName: "John",
+    lastName: "Smith",
+    mass: 92,
+    height: 1.95,
+
+    calcBMI: function() {
+        this.bmi = this.mass / this.height **2;
+        return this.bmi;
+    }
+}
+
+john.calcBMI();
+console.log(john);
+
+
+console.log(john.bmi > mark.bmi ? `"John's BMI ${john.bmi} is higher than Mark's ${mark.bmi}"` :
+ `"Mark's BMI ${mark.bmi} is higher than John's ${john.bmi}"`);
+
+
+*/
+
+//////////////////////////////////////////////////////////////////////////////////////////
+//Coding Challenge #8
